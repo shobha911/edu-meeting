@@ -1,0 +1,855 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    transition: all ease-in 0.2s;
+}
+
+/*upr-header strat*/
+.upr-header {
+    width: 100%;
+    background-color: #1f272b;
+    padding-block-start: 10px;
+}
+
+
+.upr-header p {
+    color: #fff;
+}
+
+.orenge {
+    color: orange;
+}
+
+.upr-header .fa {
+    color: #fff;
+    margin-left: 13px;
+}
+
+.upr-header .fa:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+/*upr-header end*/
+/*main-banner strat*/
+
+.banner {
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+#bg-video {
+    min-width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+
+.video-light {
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(31, 39, 43, 0.75);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.text-light{
+    background-color: rgba(94, 99, 102, 0.041);
+}
+
+.head {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.header {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-block: 20px;
+}
+
+.header h1 {
+    font-size: 27px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.header ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.header ul li ul {
+    border-radius: 0px;
+    padding: 10px 15px;
+}
+
+.header ul li ul li a {
+    color: #060606;
+    font-size: 14px;
+    margin-left: 0px;
+    border-radius: 0px;
+    padding: 10px 15px;
+
+}
+
+.header ul li ul li a:hover {
+    background: none;
+    
+}
+
+.header ul li .active {
+    color: orange !important;
+}
+
+.header ul li a:hover {
+    color: orange;
+}
+
+.blue {
+    color: rgb(27, 159, 254);
+}
+
+.blue:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.caption {
+    max-width: 1320px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.caption h4 {
+    margin-top: 150px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.caption h1 {
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-block: 20px;
+}
+
+.caption p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.btn-1 {
+    padding: 12px 30px;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(112, 35, 35);
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.btn-1:hover {
+    background-color: rgba(126, 34, 34, 0.868);
+}
+
+/*main-banner end*/
+/*meeting strat*/
+
+.meeting-bg {
+    background-image: url("../img/meetings-bg.jpg");
+    background-attachment: fixed;
+    padding-bottom: 90px;
+}
+
+.caro-1 {
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -150px;
+}
+
+.caro-section {
+    width: 95%;
+    background-image: url("../img/service-item-bg.jpg");
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+
+.caro-section .img {
+    width: 18%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.caro-section h2 {
+    font-size: 21px;
+    margin-block: 20px;
+}
+
+.caro-section p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.owl-theme .owl-nav button.owl-prev {
+    left: -70px;
+}
+
+.owl-theme .owl-nav button.owl-next {
+    right: -50px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+}
+
+.UPCOMING {
+    max-width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+
+.UPCOMING h1 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.UPCOMING hr {
+    color: #fff;
+}
+
+.meeting-section {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.meeting-section .box-1 {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.meeting-section .box-1 h4 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.meeting-section .box-1 p {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.meeting-section .box-1 p:hover {
+    color: rgb(112, 35, 35);
+    cursor: pointer;
+}
+
+.meeting-section .box-1 hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.meeting-section .box-1 .btn-2 {
+    width: 100%;
+}
+
+.box-2 {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.box-2 .box-img {
+    position: relative;
+}
+
+.box-2 img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box-2 .box-img .pay {
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding-top: 7px;
+    padding-left: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.box-2 .box-img .pay h3 {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.box-text {
+    padding: 30px 25px;
+    display: flex;
+}
+
+.month-text {
+    padding-inline: 30px;
+}
+
+.box-text h6 {
+    color: rgb(112, 35, 35);
+}
+
+.box-text h5 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.box-text h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box-text p {
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+/*meeting end*/
+/*About-section strat*/
+
+.about-bg {
+    background-image: url("../img/apply-bg.jpg");
+    background-attachment: fixed;
+}
+
+.about {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 140px 100px;
+}
+
+.about-left-1 {
+    width: 93%;
+    background-color: #ffffff34;
+    margin-bottom: 30px;
+    padding: 40px;
+    margin-inline: 0;
+}
+
+.about-left-1 h1 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.about-left-1 p {
+    color: #fff;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-left-1 .yellow {
+    background-color: rgb(255, 153, 0);
+}
+
+.about-right {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 25px;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    border: none;
+    background: none;
+}
+
+.card-header a {
+    border: none;
+}
+
+.card-header h3 {
+    font-size: 20px;
+    color: orange;
+}
+
+.card-body p {
+    padding: 0 47px;
+    line-height: 30px;
+}
+
+/*About-section end*/
+/*popular coures strat*/
+
+.coures {
+    max-width: 1320px;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+}
+
+.coures h1 {
+    font-size: 23px;
+    font-weight: 800;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.caro-2 {
+    background-color: #fff;
+    color: #000;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.caro-2 p {
+    font-size: 20px;
+    padding: 20px 40px;
+}
+
+.social .fa {
+    color: orange;
+}
+
+.social-text h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(159, 11, 11);
+    padding-bottom: 20px;
+}
+
+
+/*popular coures end*/
+/*University strat*/
+
+.full-univarsity {
+    background-image: url("../img/facts-bg.jpg");
+    background-attachment: fixed;
+}
+
+.university {
+    max-width: 1320px;
+    margin: auto;
+    padding-block: 120px;
+}
+
+.university h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 900;
+    padding-right: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.number-2 {
+    margin-top: 25px;
+}
+
+.num {
+    background-color: #ffffff31;
+    padding: 25px 35px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.num h2 {
+    font-size: 40px;
+    color: orange;
+    font-weight: 800;
+    list-style-type: 1px;
+}
+
+.num p {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.numbering {
+    width: 45%;
+}
+
+.video-ply {
+    width: 45%;
+    margin: 50px auto;
+    height: 450px;
+    background-image: url("../img/video-item-bg.jpg");
+    border-radius: 20px;
+    position: relative;
+}
+
+.video-ply img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/*University  end*/
+/*footer strat*/
+
+.footer {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-block: 120px;
+}
+
+.form-area {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px 45px;
+}
+
+.form-area h1 {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.form-area hr {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+[data-shanu] {
+    border-radius: 30px;
+    background-color: #ecebeb;
+    border: none;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+
+.msg {
+    margin-top: 40px;
+    background-color: #ecebeb;
+    border-radius: 20px;
+}
+
+.form-area button {
+    margin-top: 40px;
+}
+
+.foeter-right {
+    width: 25%;
+    margin: 0 auto;
+    background-color: rgb(154, 50, 50);
+    border-radius: 20px;
+    color: #fff;
+    padding: 30px 45px;
+}
+
+.foeter-right p {
+    font-weight: 600;
+}
+
+.foeter-right h3 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.foeter-right hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.last-footer p {
+    text-align: center;
+    color: #fff;
+    line-height: 10px;
+    font-size: 15px;
+}
+
+.last-footer hr {
+    color: #fff;
+    margin-bottom: 90px;
+}
+
+/*footer end*/
+/*other page strats*/
+
+.meeting-new{
+    height: 600px;
+    background-image: url("../img/heading-bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.caption-2{
+    text-align: center;
+    color: #fff;
+    margin-top: 130px;
+}
+
+.caption-2 p{
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.caption-2 h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.new-meeting-part{
+    margin-top: -172px;
+    padding-top: 100px;
+}
+
+.page-tem{
+    margin: 90px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#button a{
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(122, 19, 19);
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.big-img-text{
+    padding: 45px 50px;
+}
+
+.big-img-text h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.big-img-text hr{
+    margin: 45px 0;
+}
+
+.big-img-text p{
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.big-img-text h4{
+   font-size: 20px;
+   font-weight: 800;
+}
+
+.big-img-text h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.ssttss{
+    justify-content: space-evenly;
+}
+
+.bold{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.new-meeting-part button{
+    margin-bottom: 100px;
+}
+
+.shanu{
+    display: none;
+}
+
+/*media query strat*/
+
+@media screen and (max-width: 1340px) {
+
+    .caption {
+        padding-inline: 60px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .caption {
+        padding-inline: 100px;
+    }
+
+    .caro-1 {
+        padding: 0 100px;
+    }
+
+    .meeting-section {
+        padding: 0 100px;
+    }
+
+    .meeting-section .box-1 {
+        margin-bottom: 30px;
+    }
+
+    .about-left-1 {
+        width: 100%;
+    }
+
+    .coures {
+        padding: 0 100px;
+    }
+
+    .numbering {
+        width: 100%;
+    }
+
+    .video-ply {
+        width: 100%;
+    }
+
+    .university {
+        padding: 140px 100px;
+    }
+
+    .number-2 {
+        margin-top: 0;
+    }
+
+    .footer {
+        padding: 120px;
+    }
+
+    .foeter-right {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    .caption h1 {
+        font-size: 28px;
+    }
+    
+    .upr-header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .caption h1 {
+        font-size: 18px;
+    }
+
+    .university h1 {
+        font-size: 32px;
+    }
+    
+    .caption {
+        padding-inline: 10px;
+    }
+
+    .caro-section {
+        width: 100%;
+    }
+    .caro-1 {
+        padding: 10px;
+    }
+
+    .meeting-section {
+        padding: 0px;
+    }
+
+    .meeting-section .box-1 {
+        margin-bottom: 30px;
+    }
+
+    .about-left-1 {
+        width: 100%;
+    }
+
+    .about-right {
+        padding: 40px 0px;
+    }
+
+    .card-header h3 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .card-body p {
+        padding: 0 10px;
+        line-height: 25px;
+    }
+
+    .coures {
+        padding: 0px;
+    }
+
+    .about {
+        padding: 140px 0px;
+    }
+
+    .university {
+        padding: 140px 0px;
+    }
+
+    .footer {
+        padding: 120px 0;
+    }
+
+    .form-area {
+        padding: 40px 15px;
+    }
+}
+
+
+@media screen and (max-width: 485px) {
+    .last-footer p {
+        line-height: 2;
+    }
+    .university h1 {
+        font-size: 22px;
+    }
+}
